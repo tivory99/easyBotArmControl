@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Arm Control</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .button {
+            padding: 15px 30px;
+            font-size: 18px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Robot Arm Control</h1>
+
+    <h2>Base Control</h2>
+    <button class="button" onclick="window.location.href='/base_left'">Move Left</button>
+    <button class="button" onclick="window.location.href='/base_right'">Move Right</button>
+
+    <h2>Lower Arm Control</h2>
+    <button class="button" onclick="window.location.href='/lower_arm_up'">Move Up</button>
+    <button class="button" onclick="window.location.href='/lower_arm_down'">Move Down</button>
+
+    <h2>Upper Arm Control</h2>
+    <button class="button" onclick="window.location.href='/upper_arm_up'">Move Up</button>
+    <button class="button" onclick="window.location.href='/upper_arm_down'">Move Down</button>
+
+    <h2>Gripper Control</h2>
+    <button class="button" onclick="window.location.href='/gripper_open'">Open Gripper</button>
+    <button class="button" onclick="window.location.href='/gripper_close'">Close Gripper</button>
+</body>
+</html>
